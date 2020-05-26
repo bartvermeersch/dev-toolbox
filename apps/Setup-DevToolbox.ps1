@@ -11,7 +11,7 @@ choco install microsoft-teams -y
 choco install notepadplusplus -y
 choco install vscode -y
 choco install googlechrome -y
-choco install spotify -y # Invalid checksum, override with --ignore-checksums if you want to
+#choco install spotify -y # Invalid checksum, override with --ignore-checksums if you want to
 choco install vscode-settingssync
 #choco install vscode-icons -y
 #choco install vscode-csharp -y
@@ -31,28 +31,27 @@ choco install paint.net -y
 choco install armclient -y
 choco install screentogif -y
 
+
+choco install azure-data-studio
+choco install eid-belgium
+choco install eid-belgium-viewer
+choco install setpoint
+choco install dotnetcore-sdk
+choco install microsoft-edge-insider
+choco install notepadplusplus
+choco install vlc
+choco install powertoys
+choco install lastpass
+choco install nodejs-lts
+choco install microsoft-teams.install
+
 #To check
-# Azure data studio
-# belgium e-id middelware/viewer
 # brother mfl pro suite MFC-9330CDW
 # cisco anyconnect secure mobile client
 # citrx workspace
 # forticlient VPN
-# logitech setpoint
-# .net core SDK
-# Edge beta
+
 # office 365 proplus
-# node js
-# onenote
-# powertoys
-# vlc
-# VS CODE Settings sync
-
-
-
-
-
-
 
 # Show installed packages
 choco list --local-only
