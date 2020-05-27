@@ -44,6 +44,7 @@ choco install powertoys
 choco install lastpass
 choco install nodejs-lts
 choco install microsoft-teams.install
+choco install rsat
 
 #To check
 # brother mfl pro suite MFC-9330CDW
