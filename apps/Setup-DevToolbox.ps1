@@ -46,6 +46,7 @@ choco install nodejs-lts
 choco install microsoft-teams.install
 choco install rsat
 choco install OpenSSL.Light
+choco install microsoft-windows-terminal
 
 #To check
 # brother mfl pro suite MFC-9330CDW
