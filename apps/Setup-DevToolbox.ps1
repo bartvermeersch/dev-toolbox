@@ -1,5 +1,6 @@
 # Install Chocolatey
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force
+Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 choco upgrade chocolatey
 
 # Apps
@@ -68,3 +69,6 @@ choco install eid-belgium-viewer -y
 
 # Show installed packages
 choco list --local-only
+
+# Upgrade all installed packages
+choco upgrade all
