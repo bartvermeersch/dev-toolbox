@@ -48,7 +48,7 @@ choco install dotnetcore-sdk -y
 choco install nodejs-lts -y
 choco install rsat -y
 choco install armclient -y
-
+choco install wireshark -y
 
 #Security
 choco install lastpass -y
