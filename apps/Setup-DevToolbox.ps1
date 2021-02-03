@@ -29,6 +29,7 @@ choco install irfanview -y
 choco install notepadplusplus -y
 choco install vlc -y
 choco install powertoys -y
+choco install winmerge -y
 
 # Dev
 choco install vscode -y
